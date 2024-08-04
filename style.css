@@ -1,0 +1,12 @@
+svg{
+    width: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+ display: flex;
+ justify-content: space-between;
+}
