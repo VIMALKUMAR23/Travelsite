@@ -24,6 +24,7 @@ ul{
 .navbar{
  display: flex;
  justify-content: space-between;
+ align-items: center;
  margin-top: 15px;
 }
 
@@ -31,4 +32,16 @@ ul{
     
     display: flex;
     gap: 5px;
+}
+
+/* menu list links  */
+
+.menu__list ul li a{
+    text-decoration: none;
+    color: var(--base-100);
+}
+
+.menu__list ul li a:hover{
+    text-decoration: underline;
+    color: var(--primary-200);
 }
