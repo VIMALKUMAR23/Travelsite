@@ -26,22 +26,27 @@ ul{
  justify-content: space-between;
  align-items: center;
  margin-top: 15px;
+ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ padding: 15px;
 }
 
 .menu__list ul{
     
     display: flex;
-    gap: 5px;
+    gap: 18px;
 }
 
 /* menu list links  */
 
 .menu__list ul li a{
     text-decoration: none;
-    color: var(--base-100);
+    color: var(--notpink-500)
 }
 
 .menu__list ul li a:hover{
     text-decoration: underline;
     color: var(--primary-200);
 }
+
+/* media query  */
+
