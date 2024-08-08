@@ -48,5 +48,17 @@ ul{
     color: var(--primary-200);
 }
 
+.navbar__toggle{
+    display: none;
+}
+
 /* media query  */
+@media(max-width:750px){
+    .navbar__toggle{
+        display: block;
+    }
+    .menu__list{
+        display: none;
+    }
+}
 
