@@ -51,6 +51,28 @@ ul{
 .navbar__toggle{
     display: none;
 }
+/* side-navbar-link section  */
+.side-navbar-link{
+    background-color: var(--notpink-500);
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    color: white;
+}
+
+.side-navbar-link ul{
+    list-style: none;
+
+}
+
+.side-navbar-link ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 
 /* media query  */
 @media(max-width:750px){
