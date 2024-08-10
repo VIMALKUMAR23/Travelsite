@@ -51,8 +51,8 @@ ul{
 .navbar__toggle{
     display: none;
 }
-/* side-navbar-link section  */
-.side-navbar-link{
+/* side-navbar-section  */
+.side-bar{
     background-color: var(--notpink-500);
     width: 50%;
     height: 100%;
@@ -61,6 +61,7 @@ ul{
     top: 0;
     padding: 20px;
     color: white;
+    display: none;
 }
 
 .side-navbar-link ul{
@@ -73,7 +74,14 @@ ul{
     color: aliceblue;
 }
 
-
+.side-navbar-link ul li{
+margin-bottom:30px ;
+text-align: center;
+}
+/* hover side menu  */
+.side-navbar-link ul li:hover{
+   text-decoration: underline;
+    }
 /* media query  */
 @media(max-width:750px){
     .navbar__toggle{
