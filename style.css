@@ -67,6 +67,8 @@ ul{
     padding: 20px;
     color: white;
     display: none;
+    z-index: 1;
+
 }
 
 .side-navbar-link ul{
@@ -97,7 +99,8 @@ text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
-    width: 100%;
+    width: 100vw;
+    height: 700px;
 }
 .svg-wave svg{
     
