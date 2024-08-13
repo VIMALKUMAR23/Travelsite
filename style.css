@@ -110,6 +110,14 @@ text-align: center;
     width: 100%;
     opacity: 0.6;
 }
+/* about us  */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+/* about us end */
 /* media query  */
 @media(max-width:750px){
     .navbar__toggle{
