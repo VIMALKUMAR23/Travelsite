@@ -118,6 +118,33 @@ text-align: center;
     padding: 10px;
 }
 /* about us end */
+
+/* bento start  */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 10px; /* Adjust as needed */
+}
+
+.bento-grid > div {
+    background-color: #f0f0f0; /* Placeholder background color */
+    padding: 20px; /* Placeholder padding */
+    border: 1px solid #ccc; /* Placeholder border */
+}
+
+.bento-grid h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.bento-grid p {
+    margin-bottom: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+/* bento end  */
+
 /* media query  */
 @media(max-width:750px){
     .navbar__toggle{
