@@ -112,11 +112,11 @@ text-align: center;
 .hero-info{
     position: absolute;
     top: 100px;
-    right: 0;
+    right: 425px;
 }
 .hero-info h2{
  font-size: xx-large;
- 
+
 }
 
 .hero-info p{
@@ -146,19 +146,36 @@ text-align: center;
     align-items: center;
     padding: 10px;
 }
+.card{
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.card img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.card img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 /* about us end */
 
 /* bento start  */
 .bento-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-gap: 10px; /* Adjust as needed */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+    
 }
 
 .bento-grid > div {
-    background-color: #f0f0f0; /* Placeholder background color */
-    padding: 20px; /* Placeholder padding */
-    border: 1px solid #ccc; /* Placeholder border */
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
 }
 
 .bento-grid h2 {
