@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color:gray;
+    background-color:whitesmoke;
 }
 
 /* navbar start  */
@@ -59,7 +59,7 @@ ul{
 
 .menu__list ul li a{
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 
 .menu__list ul li a:hover{
@@ -166,6 +166,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    background-color: #ffff0027;
 }
 .card{
     display: flex;
@@ -188,29 +189,26 @@ text-align: center;
 /* about us end */
 
 /* bento start  */
+/* Base styles for bento grid */
 .bento-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 10px;
-    
-}
-
-.bento-grid > div {
-    background-color: #f0f0f0; 
-    padding: 20px; 
-    border: 1px solid #ccc; 
-}
-
-.bento-grid h2 {
-    margin-top: 0;
-    font-size: 1.5em;
-}
-
-.bento-grid p {
-    margin-bottom: 0;
-    font-size: 1em;
-    color: #555;
-}
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .bento-grid > div {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .bento-grid > div:hover {
+    transform: translateY(-10px);
+  }
 
 /* bento end  */
 
@@ -239,3 +237,26 @@ text-align: center;
         font-size: 1rem;
     }
 }
+
+/* bento screen  */
+/* Large screens */
+@media (max-width: 1200px) {
+    .bento-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Medium screens */
+  @media (max-width: 768px) {
+    .bento-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* Small screens */
+  @media (max-width: 480px) {
+    .bento-grid > div {
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
