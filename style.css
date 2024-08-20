@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{
     --base-100:#FB773C;
@@ -178,7 +179,7 @@ text-align: center;
     width: 350px;
     
     border-radius: 5px;
-    
+    overflow: hidden;
     transition: transform 0.3s ease-in-out;
 }
 .card img:hover{
@@ -209,8 +210,14 @@ text-align: center;
   .bento-grid > div:hover {
     transform: translateY(-10px);
   }
+  /* bento end  */
 
-/* bento end  */
+  /* footer  */
+.footer{
+    background: #000;
+    display: flex;
+}
+  /* footer end  */
 
 /* media query  */
 @media(max-width:750px){
