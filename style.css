@@ -171,18 +171,26 @@ text-align: center;
 }
 .card{
     display: flex;
-    gap: 40px;
+    gap: 15px;
     overflow: hidden;
     position: relative;
-      
+   
     height: 300px;
     width: 870px;
+    max-width: 870px;
 }
+.card-1,.card-3,.card-2{
+flex: 1;
+}
+
 .card img{
 
     width: 100%;
     height: 100%;
+    
     border-radius: 5px;
+    /* height: 300px;
+    width: 870px; */
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
 }
@@ -287,6 +295,20 @@ text-align: center;
     }
     .menu__list{
         display: none;
+    }
+    /* cards  */
+    .card{
+        flex-direction: column;
+        height: auto;
+    }
+    .card-1,.card-2,.card-3{
+        margin-bottom: 20px;
+        display: block;
+        margin: 0 auto;
+    }
+    .card img{
+        height: 300px;
+    width: 300px;
     }
 }
 
